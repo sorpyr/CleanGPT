@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChatGPT Sidebar</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      width: 220px;
+      height: 120px;
+      font-family: Arial, sans-serif;
+      background-color: #2e2e2e;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      user-select: none;
+    }
+
+    h1 {
+      margin: 0 0 15px 0;
+      font-weight: normal;
+      font-size: 24px;
+      letter-spacing: 2px;
+      text-shadow: 0 0 2px black;
+    }
+
+    button {
+      background-color: #999999; /* darker gray button */
+      border: 1.5px solid white;
+      border-radius: 6px;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 10px 30px;
+      cursor: pointer;
+      text-shadow: 0 0 1px black;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      outline-offset: 2px;
+    }
+
+    button:hover {
+      background-color: #888888;
+      color: #f0f0f0;
+    }
+
+    button:active {
+      background-color: #6f6f6f;
+    }
+  </style>
+</head>
+<body>
+  <h1>ChatGPT</h1>
+  <button id="openChatGPT">Open</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
