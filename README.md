@@ -1,4 +1,4 @@
-# CleanGPT
+# CleanGPT ![CleanGPT Icon](https://raw.githubusercontent.com/sorpyr/CleanGPT/main/icons/icon128.png)
 CleanGPT is a lightweight Chromium extension that combines a quick-access ChatGPT popup with a cleaner YouTube experience by removing the Create button.
 
 # Features
